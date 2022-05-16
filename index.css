@@ -1,0 +1,56 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    margin: 10em;
+}
+
+.titleTwo {
+    color: #10B981;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: .5em 1.5em;
+    cursor: pointer;
+}
+
+i {
+    padding: .2em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #1f2937, #ccc, #1f2937);
+}
+
+.pwcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.password {
+    background-color: #273549;
+    color: #55F991;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+#charLimit {
+    padding: .5em;
+    margin-left: 1em;
+}

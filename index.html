@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Password Generator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/982a1daf20.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Generate a</h1>
+      <h1 class="titleTwo">random password</h1>
+      <p class="subtext">Never use an insecure password again.</p>
+      <button id="genbtn" class="generate">
+        <i class="fa-solid fa-bolt"></i> Generate Passwords
+      </button>
+
+      <p>How many characters would you like? <input type="number" id="charLimit" min="8" max="20" value="8"></p>
+      <hr />
+      <div class="pwcontainer">
+        <div id="pw1" class="password"></div>
+        <div id="pw2" class="password"></div>
+        <div id="pw3" class="password"></div>
+        <div id="pw4" class="password"></div>
+      </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
